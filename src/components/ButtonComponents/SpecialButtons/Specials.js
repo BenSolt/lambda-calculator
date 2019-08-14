@@ -14,7 +14,7 @@ const Specials = () => {
 
 
   return (
-    <div>
+    <div className="special">
 
  {specials.map(digit =>
 

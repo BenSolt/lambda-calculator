@@ -1,0 +1,79 @@
+.container{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: auto;
+    background: rgb(167, 17, 55);
+    border-radius: 5px;
+    }
+
+
+    
+
+    .logo{
+        width: 70px; 
+        margin: 6% 0 0 4%;
+        /* border: 2px solid black; */
+    }
+
+
+.screen{
+    /* width: 100px;
+    height: 35px;
+    background: gray;
+    border-radius: 16px;
+    justify-content: center; */
+    color: white;
+    display: flex;
+    
+}
+
+/*Btn Numbers  */
+.numbers{
+    width: 90px;
+    border: 2px solid black;
+    flex-direction: column-reverse;
+
+    
+    
+}
+
+.btnNums{
+    background: blue;
+    border-radius: 10px;
+
+}
+
+button{
+    color: white;
+}
+
+/* Btn Operators */
+
+.operats{
+    width: 25px;
+    border: 2px solid black;
+     display: flex; 
+    flex-direction: column;
+}
+
+
+
+.btnOpers{
+    background: rgb(71, 115, 218);
+    border-radius: 10px;
+}
+
+
+/* Btn Special */
+
+.special{
+    border: 2px solid black;
+    display: flex;
+    
+}
+
+.btnSpecials{
+    background: rgb(71, 115, 218);
+    border-radius: 10px;
+}

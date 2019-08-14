@@ -17,7 +17,7 @@ const Operators = () => {
 
   return (
 
-    <div>
+    <div className="operats">
 
 {operators.map(digit =>
 

@@ -17,7 +17,7 @@ const Numbers = () => {
  
 
   return (
-    <div>
+    <div className="numbers">
 
  {numbers.map(digit =>
 
