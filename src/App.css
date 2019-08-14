@@ -1,47 +1,72 @@
+*{box-sizing: border-box;}
 .container{
     width: 100%;
-    max-width: 200px;
+    max-width: 220px;
     height: auto;
     margin: auto;
     background: rgb(167, 17, 55);
     border-radius: 5px;
     }
 
-
+.App{
+   
+    /* display: flex;  */
+    /* flex-direction: column-reverse;  */
+    padding: 10px;
+    
+}
     
 
     .logo{
         width: 70px; 
-        margin: 6% 0 0 4%;
-        /* border: 2px solid black; */
+        margin: 7% 0 0 7%;
+        
     }
 
 
 .screen{
-    /* width: 100px;
-    height: 35px;
-    background: gray;
-    border-radius: 16px;
-    justify-content: center; */
+     width: 100%;
+    height: 55px;
+    background: rgb(49, 49, 49);
+    border-radius: 35px;
+    text-align: right;
+    padding-right: 10px;
+    padding: 15px;
     color: white;
+    margin-bottom: 8px;
+  
+   
+    
+}
+
+.keypad{
     display: flex;
     
 }
 
-/*Btn Numbers  */
-.numbers{
-    width: 90px;
-    border: 2px solid black;
-    flex-direction: column-reverse;
 
-    
+
+/*Btn Numbers  */
+
+.numbers{
+     width: 150px; 
     
 }
 
 .btnNums{
+    height: 40px;
+    width: 40px;
     background: blue;
-    border-radius: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 4px;
+    
+}
 
+.btnNums:nth-child(10) {
+/* background: green; */
+width: 85px;
+border-radius: 50px;
 }
 
 button{
@@ -51,29 +76,29 @@ button{
 /* Btn Operators */
 
 .operats{
-    width: 25px;
-    border: 2px solid black;
-     display: flex; 
-    flex-direction: column;
+    /* border: 2px solid black; */
 }
 
-
-
 .btnOpers{
+    height: 40px;
+    width: 40px;
     background: rgb(71, 115, 218);
-    border-radius: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 4px;
+    
 }
 
 
 /* Btn Special */
 
-.special{
-    border: 2px solid black;
-    display: flex;
-    
-}
+
 
 .btnSpecials{
+    height: 40px;
+    width: 40px;
     background: rgb(71, 115, 218);
-    border-radius: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 4px;
 }

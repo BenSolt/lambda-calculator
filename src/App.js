@@ -30,9 +30,18 @@ function App() {
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
 
       <Display number={0} />
-      <Numbers/> 
+      <div className="keypad">
+
+        <div>
+
+        <Specials/>
+        <Numbers/> 
+
+        </div>
+
+      
       <Operators/>
-      <Specials/>
+      </div>
      
       </div>
     </div>
