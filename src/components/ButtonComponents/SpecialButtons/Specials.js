@@ -18,7 +18,7 @@ const Specials = () => {
 
  {specials.map(digit =>
 
-   < SpecialButton  key={digit} specialbtn ={digit}/>
+   < SpecialButton  key={digit} special ={digit}/>
   
   )}
 

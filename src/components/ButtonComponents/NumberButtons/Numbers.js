@@ -16,12 +16,17 @@ const Numbers = (props) => {
    const[buttonNumbers, setButtonNumbers ] = useState(numbers);
 console.log(Numbers, props);
 
+//add functionality
+const number = () => {
+  setButtonNumbers(buttonNumbers => buttonNumbers + 1);
+}
+
   return (
     <div className="numbers">
 
 
  {buttonNumbers.map(digit => {
-  return < NumberButton key = {digit} tex ={digit}/>
+  return < NumberButton key = {digit} text ={digit}/>
  }
 
    
